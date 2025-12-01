@@ -11,29 +11,30 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: 'Fullstack Developer & Server Management',
+    title: 'Backend Developer & Server Management',
     company: 'FzeeTechz Pvt Ltd, Jaipur',
-    period: 'Oct 2023 - Present',
+    period: 'May 2025 - Present',
     description: [
-      'Developing fullstack applications using React.js and React Native',
+      'Developing scalable backend applications using Node.js and Express',
       'Managing server infrastructure and deployment processes',
-      'Building cross-platform mobile applications with React Native',
-      'Implementing backend solutions with Node.js and Express',
+      'Building secure and lightning-fast REST APIs for web and mobile apps',
+      'Integrating databases and optimizing queries with MongoDB',
       // 'Working on matrimonial platform (ApnaShathi) - complete backend and mobile app development'
     ],
-    technologies: ['React Native', 'React.js', 'Node.js', 'Express', 'MongoDB', 'Server Management']
+    technologies: ['Node.js', 'React.js', 'Express', 'MongoDB', 'Git', 'Web Services', 'Server Management']
   },
   {
-    title: 'React.js Developer Intern',
-    company: 'Omnino Solutions, Mohali',
-    period: 'Oct 2022 - Apr 2023',
+    title: 'FullStack Developer Intern',
+    company: 'CAD Solutions, Jaipur',
+    period: 'Nov 2024 - May-2025',
     description: [
-      'Gained hands-on experience in React.js development',
-      'Built responsive web applications using modern React patterns',
-      'Collaborated with senior developers on client projects',
-      'Learned industry best practices and coding standards'
+      'Gained hands-on experience in full-stack web development',
+      'Built responsive applications using HTML, CSS, JavaScript, and React.js',
+      'Collaborated with senior developers on backend API and UI projects',
+      'Learned industry best practices & coding standards'
+
     ],
-    technologies: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Git']
+    technologies: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Git', 'Node.js']
   }
 ];
 

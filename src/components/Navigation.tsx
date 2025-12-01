@@ -29,7 +29,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            Atiqur
+            Preetam
           </div>
 
           <div className="hidden md:flex gap-8">

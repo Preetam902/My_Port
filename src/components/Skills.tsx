@@ -11,14 +11,14 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     icon: <Smartphone size={32} />,
-    title: 'Mobile Development',
-    skills: ['React Native', 'iOS & Android', 'Agora SDK', 'Push Notifications', 'Voice Chat', 'Cross Platform'],
+    title: 'Backend Development',
+    skills: ['Node.js', 'Express.js', 'REST APIs', 'Authentication', 'Middleware', 'Error Handling'],
     color: 'from-cyan-400 to-blue-500'
   },
   {
     icon: <Code2 size={32} />,
-    title: 'Frontend Development',
-    skills: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive Design'],
+    title: 'Web Development Basics',
+    skills: ['HTML', 'CSS', 'JavaScript', 'EJS / Handlebars', 'React.js', 'Form Validation'],
     color: 'from-blue-400 to-purple-500'
   },
   {
@@ -124,9 +124,7 @@ const Skills = () => {
             Continuous Learning
           </h3>
           <p className="text-slate-300 text-center max-w-3xl mx-auto leading-relaxed">
-            I'm constantly expanding my skill set by exploring new technologies, following industry best practices,
-            and contributing to open-source projects. Currently diving deeper into advanced React Native patterns,
-            real-time communication systems, and scalable backend architectures.
+            I'm constantly expanding my skill set by exploring new backend technologies, following industry best practices, and improving application performance and security. Currently diving deeper into scalable Node.js architectures, real-time communication systems, and high-performance API and database optimization.
           </p>
         </div>
       </div>

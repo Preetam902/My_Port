@@ -37,8 +37,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: 'Email',
-      value: 'atiqur.mdrahaman@gmail.com',
-      href: 'mailto:atiqur.mdrahaman@gmail.com'
+      value: 'preetamsharmawps@gmail.com',
+      href: 'mailto:preetamsharmawps@gmail.com'
     },
     {
       icon: <MapPin size={24} />,
@@ -49,14 +49,14 @@ const Contact = () => {
     {
       icon: <Github size={24} />,
       label: 'GitHub',
-      value: 'github.com/atiqaz',
-      href: 'https://github.com/atiqaz'
+      value: 'github.com/Developer-Preetam',
+      href: 'https://github.com/Developer-Preetam'
     },
     {
       icon: <Linkedin size={24} />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/rahman-atiqur-atiq',
-      href: 'https://www.linkedin.com/in/rahman-atiqur-atiq'
+      value: 'linkedin.com/in/preetam701',
+      href: 'https://www.linkedin.com/in/preetam701'
     }
   ];
 
@@ -195,7 +195,7 @@ const Contact = () => {
         </div>
 
         <div className="mt-16 pt-8 border-t border-slate-800 text-center text-slate-400">
-          <p>&copy; {new Date().getFullYear()} MD Atiqur Rahman - Fullstack Developer</p>
+          <p>&copy; {new Date().getFullYear()} PREETAM SHARMA - Node.js Developer</p>
         </div>
       </div>
     </section>

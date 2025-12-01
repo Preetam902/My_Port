@@ -13,32 +13,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'ApnaShathi - Matrimonial Platform',
+    title: 'APNASHATHI - Matrimonial Platform',
     description: 'Advanced matrimonial platform with video calling, real-time messaging, and comprehensive matching system.',
-    technologies: ['React Native', 'Node.js', 'Agora SDK', 'WebSocket', 'MongoDB', 'Real-time Chat'],
+    technologies: ['Node.js', 'Agora APIs', 'WebSocket', 'MongoDB', 'Agora Calling', 'Real-time Chat'],
     image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    highlights: ['Video calling with Agora SDK', 'Real-time messaging with WebSocket', 'Advanced user matching', 'Complete backend & mobile app']
+    highlights: ['Video calling with Agora', 'Real-time messaging with WebSocket', 'Advanced user matching', 'Complete backend & Server Deployment']
   },
   {
-    title: 'LisiChat - Social Dating App',
-    description: 'Feature-rich social media dating app with voice chatrooms, PK battles, and interactive social features.',
-    technologies: ['React Native', 'Node.js', 'WebSocket', 'Voice Chat', 'Real-time Gaming'],
+    title: 'DHANTAG – Finance & Utility Management',
+    description: 'A financial dashboard managing wallet, utilities, orders, and KYC, Order creation, approval flow, and tracking API modules.',
+    technologies: ['Node.js', 'User KYC', 'Payment Gateway', 'Order Buying', 'Cart System'],
     image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800',
-    highlights: ['Voice chatrooms', 'PK battle system', 'Social media features', 'Real-time interactions']
+    highlights: ['Utility workflows', 'Mobile Recharge', 'Bill Payments', 'Payment Gateway']
   },
   {
-    title: 'RollCall - Employee Management',
-    description: 'Corporate attendance and duty management system for Bharat Electronics, handling employee scheduling and attendance tracking.',
-    technologies: ['React Native', 'Node.js', 'Express', 'MongoDB', 'Attendance System'],
+    title: 'ALSAKHAA – Workflow management',
+    description: 'A workflow automation system for handling certificate creation, project assignments, and multi-role operational processes',
+    technologies: ['RBAC', 'Node.js', 'Express', 'MongoDB', 'Cron Jobs'],
     image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-    highlights: ['Employee duty scheduling', 'Attendance tracking', 'Corporate exam management', 'Real-time monitoring']
+    highlights: ['Role-Based Access Control', 'Job Creation', 'Status Tracking', 'Real-time monitoring']
   },
   {
-    title: 'Expense Tracker App',
-    description: 'Comprehensive expense management app for roommates with role-based access and notification system.',
-    technologies: ['React Native', 'Node.js', 'Express', 'MongoDB', 'Push Notifications'],
+    title: 'AUTONIX – Team & Reward Engine',
+    description: 'A structured, performance-based user reward platform',
+    technologies: ['Node.js', 'Express', 'MongoDB', 'Payment Gateway'],
     image: 'https://images.pexels.com/photos/6551415/pexels-photo-6551415.jpeg?auto=compress&cs=tinysrgb&w=800',
-    highlights: ['Role-based access (Mate & Admin)', 'Personal & shared expenses', 'Email services', 'Privacy & security focused']
+    highlights: ['Automated reward engine for rank', 'Cron jobs', 'Email services', 'Privacy & security focused']
   }
 ];
 
