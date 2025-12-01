@@ -1,5 +1,6 @@
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import resume from '../public/PREETAM NODEJS.pdf.pdf'
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,6 +11,20 @@ const Hero = () => {
 
   const scrollToNext = () => {
     document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  // Function to handle resume download
+  const handleResumeDownload = () => {
+    // Replace this with your actual resume file path
+    const resumeUrl = resume; // Make sure to put your resume file in public folder
+    
+    // Create a temporary link element
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'Preetam_Sharma_Resume.pdf'; // Name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -64,7 +79,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex gap-4 justify-center mb-12">
+          {/* Updated buttons section with resume download */}
+          <div className="flex flex-wrap gap-4 justify-center mb-12">
             <a
               href="#contact"
               className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all transform hover:scale-105"
@@ -77,8 +93,12 @@ const Hero = () => {
             >
               View Projects
             </a>
+            
+            {/* Resume Download Button */}
+            
           </div>
 
+          {/* Social links with added resume icon */}
           <div className="flex gap-6 justify-center">
             <a
               href="https://github.com/Developer-Preetam"
@@ -102,6 +122,15 @@ const Hero = () => {
             >
               <Mail size={24} />
             </a>
+            
+            {/* Resume download icon in social links */}
+            <button
+              onClick={handleResumeDownload}
+              className="group p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/30"
+              title="Download Resume"
+            >
+              <Download size={24} className="group-hover:animate-bounce" />
+            </button>
           </div>
         </div>
 
@@ -110,7 +139,6 @@ const Hero = () => {
           className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-cyan-400 hover:text-cyan-300 transition-colors"
         >
           <ArrowDown size={32} />
-          
         </button>
       </div>
     </section>

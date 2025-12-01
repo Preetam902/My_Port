@@ -25,7 +25,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: 'FullStack Developer Intern',
-    company: 'CAD Solutions, Jaipur',
+    company: 'Technoglobe, Jaipur',
     period: 'Nov 2024 - May-2025',
     description: [
       'Gained hands-on experience in full-stack web development',
