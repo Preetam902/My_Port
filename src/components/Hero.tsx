@@ -105,6 +105,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/30"
+              title="My Github"
             >
               <Github size={24} />
             </a>
@@ -113,12 +114,14 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/30"
+              title="My Linkdin"
             >
               <Linkedin size={24} />
             </a>
             <a
               href="mailto:preetamsharmawps@gmail.com"
               className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 transition-all transform hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/30"
+              title="Contact: preetamsharmawps@gmail.com"
             >
               <Mail size={24} />
             </a>
