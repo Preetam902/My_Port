@@ -99,7 +99,7 @@ const Experience = () => {
                 <Calendar className="text-emerald-400" size={20} />
               </div>
               <div>
-                <div className="text-2xl font-bold text-white">0-1+ Years</div>
+                <div className="text-2xl font-bold text-white">1+ Years</div>
                 <div className="text-sm text-slate-400">Experience</div>
               </div>
             </div>
@@ -261,14 +261,14 @@ const Experience = () => {
                       <div className="mt-8 pt-6 border-t border-slate-800">
                         <div className="flex items-center justify-between mb-2">
                           <span className="text-sm text-slate-400">Experience Growth</span>
-                          <span className="text-sm font-semibold text-cyan-400">Level {index + 1}</span>
+                          <span className="text-sm font-semibold text-cyan-400">Level</span>
                         </div>
                         <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                           <div 
                             className={`h-full bg-gradient-to-r ${
                               index === 0 ? 'from-cyan-500 to-blue-500' : 'from-purple-500 to-pink-500'
                             } rounded-full transition-all duration-1000`}
-                            style={{ width: `${(index + 1) * 50}%` }}
+                            style={{ width: `${(1.8) * 50}%` }}
                           />
                         </div>
                       </div>
