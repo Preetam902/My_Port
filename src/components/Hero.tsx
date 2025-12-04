@@ -35,17 +35,13 @@ const Hero = () => {
   };
 
   const handleResumeDownload = () => {
-    // If resume is in public folder
-    const resumeUrl = '/PREETAM NODEJS.pdf.pdf';
-    
-    // Create a temporary link element
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Preetam_Sharma_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // Replace with your Google Drive direct download link
+  const googleDriveLink = 'https://drive.google.com/file/d/14_Gsv_0Q1FXzmXO0BUtsWVeHcSX2ICZD/view?usp=drivesdk';
+  
+  // Open in new tab
+  window.open(googleDriveLink, '_blank');
+};
+
 
   return (
     <section
